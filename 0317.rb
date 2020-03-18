@@ -76,4 +76,5 @@ puts "This ticket is for: #{ticket.event}, at
 #{ticket.venue}.\n
 The performer is #{ticket.performer}.\n
 The seat is #{ticket.seat},
-and it costs $#{'%<2f>' % ticket.price}"
+and it costs "
+# "$#{'%<2f>' % ticket.price}"
